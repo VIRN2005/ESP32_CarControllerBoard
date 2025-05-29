@@ -235,11 +235,11 @@ void setup() {
   setUpPinModes();
   
   // Inicializar Bluetooth Serial
-  SerialBT.begin("ESP32_Car_Controller_Gen1");
+  SerialBT.begin("ESP32_Car_Controller_Redes");
   
   Serial.println("=== ESP32 Car Controller v2.0 ===");
   Serial.println("Compatible with React Native BLE App");
-  Serial.println("Device Name: ESP32_Car_Controller_Gen1");
+  Serial.println("Device Name: ESP32_Car_Controller_Redes");
   Serial.println("Ready for connections...");
   
   // Mensaje de bienvenida por Bluetooth
